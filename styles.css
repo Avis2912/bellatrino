@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Rating App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 10px 20px;
+            text-align: center;
+            max-width: 300px;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-style: normal;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-weight:500;
+            margin-bottom: 20px;
+            margin-top: 5px;
+        }
+
+        label {
+            display: block;
+            font-size: 16px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-bottom: 15px;
+            margin-right: 5px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 4px;
+          margin-bottom: 20px;
+          
+        }
+
+        input[type="text"] {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 10px;
+            margin-left: 0px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+
+        .star-rating {
+            font-size: 0;
+        }
+
+        .star {
+            font-size: 40px;
+            color: #ccc;
+            cursor: pointer;
+            margin-right: 8px;
+        }
+
+        .star.selected {
+            color: #f5a623;
+        }
+
+        #mobileNumberr {
+          margin-right: 50px;
+          color: green;
+        }
+
+        #submit {
+            background-color: #3c3b39;
+            color: #fff;
+            border: none;
+            margin-top: 13px;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        #submit:hover {
+            background-color: #57534c;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Rate Our Service</h1>
+        <label for="mobileNumber">Mobile Number:</label>
+        <input type="tel" id="mobileNumber" placeholder="Enter your mobile number" required>
+        <label for="starRating">Star Rating:</label>
+        <div class="star-rating">
+            <span class="star" data-rating="1">&#9733;</span>
+            <span class="star" data-rating="2">&#9733;</span>
+            <span class="star" data-rating="3">&#9733;</span>
+            <span class="star" data-rating="4">&#9733;</span>
+            <span class="star" data-rating="5">&#9733;</span>
+        </div>
+        <button id="submit">Submit</button>
+    </div>
+
+    <script>
+        // JavaScript code (same as in the previous response)
+    </script>
+</body>
+
+</html>
